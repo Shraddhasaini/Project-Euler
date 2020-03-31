@@ -1,3 +1,4 @@
+
 def fib():
     x,y = 0,1
     while True:
@@ -11,8 +12,9 @@ def even(seq):
 
 def under_a_million(seq):
     for number in seq:
-        if number > 1000000:
+        if number > 4000000:
             break
         yield number
 
-print sum(even(under_a_million(fib())))
+res= sum(even(under_a_million(fib())))
+print(res)
