@@ -28,5 +28,9 @@ Do you have any hints on solving problems?
 Read the details of the problem very carefully and make note of any example cases given. Experiment with pencil and paper to get a feel for the ideas behind the problem. If the ideas are new to you, use the internet or books to get some background; the problem should contain clues as to what to look-up. Try writing a program to generate for simple cases and check that your output agrees with the example cases; this will confirm you've understood the problem and are heading in the right direction. Based on this try to extrapolate to estimate the time it will take to get the final answer and if it's going to take significantly more than a minute rethink your strategy.
 
 
+What are the levels and awards all about?
+For every twenty-five problems you solve you will advance one level, which should help encourage you to make short term targets. The awards are earned for a variety of reasons and if you are wondering what you need to do to earn an award go to the Statistics page and you can see a complete list of current awards. In the case of both levels and awards you can click on the image on the Statistics page to see which members are currently at that level or who has earned a particular award. It is hoped that the levels and awards will provide a bit of extra fun as you solve the problems.
+
+
 
 
