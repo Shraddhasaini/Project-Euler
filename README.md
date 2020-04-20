@@ -31,6 +31,11 @@ Read the details of the problem very carefully and make note of any example case
 What are the levels and awards all about?
 For every twenty-five problems you solve you will advance one level, which should help encourage you to make short term targets. The awards are earned for a variety of reasons and if you are wondering what you need to do to earn an award go to the Statistics page and you can see a complete list of current awards. In the case of both levels and awards you can click on the image on the Statistics page to see which members are currently at that level or who has earned a particular award. It is hoped that the levels and awards will provide a bit of extra fun as you solve the problems.
 
+There seems to be discussion threads for each problem, so why can't I access some of them?
+You are only able to access a thread for a particular problem once you have solved it. Once you have access you will be able to see how other members have solved the problem, discuss methods, and share your insights.
+
+
+
 
 
 
