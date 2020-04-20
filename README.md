@@ -35,7 +35,8 @@ There seems to be discussion threads for each problem, so why can't I access som
 You are only able to access a thread for a particular problem once you have solved it. Once you have access you will be able to see how other members have solved the problem, discuss methods, and share your insights.
 
 
-
+What is Kudos?
+The purpose of Kudos is to let the poster or other members know that you found a particular post extremely helpful, useful, or well written. You can award up to 5 Kudos points to each problem thread, so only use when you think a post really deserves it.
 
 
 
