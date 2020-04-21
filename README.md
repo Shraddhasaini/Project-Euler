@@ -35,10 +35,9 @@
 > ### What is Kudos?
 >> The purpose of Kudos is to let the poster or other members know that you found a particular post extremely helpful, useful, or well written. You can award up to 5 Kudos points to each problem thread, so only use when you think a post really deserves it.
 >
-
-### Why do some posts disappear?
-Only the first one hundred posts are automatically made permanent. After this only the most recent one hundred posts are kept; older posts will be automatically deleted. However, if a particularly good post is made then one of the administrators may make a post permanent. Kudos is a useful way to alert administrators to a post which members have found helpful and should be made permanent.
-
+> ### Why do some posts disappear?
+>> Only the first one hundred posts are automatically made permanent. After this only the most recent one hundred posts are kept; older posts will be automatically deleted. However, if a particularly good post is made then one of the administrators may make a post permanent. Kudos is a useful way to alert administrators to a post which members have found helpful and should be made permanent.
+>
 ### Is there anywhere else we can discuss and meet other members?
 Indeed there is! There is an alternative phpBB official forum which has been set up to allow members to engage in general discussions, share ideas relating to problem solving and programming, make suggestions about the website, and ask for clarification on the wording of a particular problem.
 
