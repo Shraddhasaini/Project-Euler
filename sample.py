@@ -1,3 +1,3 @@
-loc = 'goa'
-if (loc == 'goa'):
-    print(True)
+list = [1,2,1]
+while list:
+    print(j)
