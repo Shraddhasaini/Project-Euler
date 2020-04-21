@@ -20,8 +20,8 @@
 > ### I solved it by using a search engine, does that matter?
 >> Making use of the internet to research a problem is to be encouraged as there could be hidden treasures of mathematics to be discovered beneath the surface of many of these problems. However, there is a fine line between researching ideas and using the answer you found on another website. If you photocopy a crossword solution then what have you achieved?
 >
->> ### I've checked my program ten times now and I keep getting told my answer is wrong! Have you made a mistake?
-> With newly released problems it is quite possible that a small error may have slipped through the net, or maybe the wording is slightly ambiguous and the problem has not been explained as well as it could. However, when so many people have hit the target and one marksman misses ten times on the run, he/she can hardly shoot his/her own foot and conclude that because the gun is working properly the fault must lie in the target.
+> ### I've checked my program ten times now and I keep getting told my answer is wrong! Have you made a mistake?
+>> With newly released problems it is quite possible that a small error may have slipped through the net, or maybe the wording is slightly ambiguous and the problem has not been explained as well as it could. However, when so many people have hit the target and one marksman misses ten times on the run, he/she can hardly shoot his/her own foot and conclude that because the gun is working properly the fault must lie in the target.
 >
 
 ### Do you have any hints on solving problems?
