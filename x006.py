@@ -8,3 +8,4 @@ def sum_square(n):
 
 
 print("The difference is ",sum_square(10)) # 385,3025,2640
+print("The difference is ",sum_square(100))
