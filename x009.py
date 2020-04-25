@@ -1,18 +1,6 @@
-
-def hypo(a,b,c):
-    h = 0
-    if (max(a,b,c)==a):
-        h = a
-        al = b
-        base = c
-    elif (max(a,b,c)==b):
-        h = b
-        al = a
-        base = c
-    else:
-        h = c
-        al = a
-        base = b
-    return h, al, base
-
-print(hypo(1,2,3))
+hypo = lambda a,b,c : a if (max(a,b,c)==a) else (b if (max(a,b,c)==b) else c)
+al = lambda a,b,c : b if (max(a,b,c)==a) else (c if (max(a,b,c)==b) else a)
+base = lambda a,b,c : c if (max(a,b,c)==a) else (a if (max(a,b,c)==b) else b)
+print(hypo(3,4,5))
+print(al(3,4,5))
+print(base(3,4,5))
