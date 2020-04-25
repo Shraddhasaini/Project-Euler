@@ -1,4 +1,3 @@
-
 def Triplet(n):#O(N^2)
     for a in range(1, 400):
         for b in range(1, 400):
