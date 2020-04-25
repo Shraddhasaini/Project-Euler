@@ -12,4 +12,4 @@ for i in range(0, len(s) - 13):
     if product > largestProduct:
         largestProduct = product
 
-print (largestProduct)
+print(largestProduct)
