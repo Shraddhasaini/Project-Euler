@@ -1,7 +1,5 @@
-def sample(n):
-     for a in range(1, 400):
-        for b in range(1, 400):
-            c = (1000 - a) - b
-    return a,b,c
+from numpy import *
+a = array([[8, 2, 22, 97, 38, 15, 00, 40, 00, 75, 4, 5, 7, 78, 52, 12, 50, 77, 91, 8]])
 
-print(sample(1000))
+
+print(a)
