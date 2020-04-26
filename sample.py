@@ -19,7 +19,24 @@ m = np.array([[8, 2, 22, 97, 38, 15, 00, 40, 00, 75, 4, 5, 7, 78, 52, 12, 50, 77
 [20, 69, 36, 41, 72, 30, 23, 88, 34, 62, 99, 69, 82, 67, 59, 85, 74, 4, 36, 16],
 [20, 73, 35, 29, 78, 31, 90, 1, 74, 31, 49, 71, 48, 86, 81, 16, 23, 57, 5, 54],
 [1, 70, 54, 71, 83, 51, 54, 69, 16, 92, 33, 48, 61, 43, 52, 1, 89, 19, 67, 48]])
-a = np.reshape(m,(20,20))
+problemMatrix = np.reshape(m,(20,20))
 
+maxProd = 1
 
-print(np.diag(a))
+# search all combinations for maximum product
+
+for i in range(16):
+    for j in range(16):
+        prod1 = problemMatrix[i,j]*problemMatrix[i+1,j]*problemMatrix[i+2,j]*problemMatrix[i+3,j]
+        if prod1 > maxProd:
+            maxProd = prod1
+        prod2 = problemMatrix[i,j]*problemMatrix[i,j+1]*problemMatrix[i,j+2]*problemMatrix[i,j+3]
+        if prod2 > maxProd:
+            maxProd = prod2
+        prod3 = problemMatrix[i,j]*problemMatrix[i+1,j+1]*problemMatrix[i+2,j+2]*problemMatrix[i+3,j+3]
+        if prod3 > maxProd:
+            maxProd = prod3
+        prod4 = problemMatrix[19-i,j]*problemMatrix[18-i,j+1]*problemMatrix[17-i,j+2]*problemMatrix[16-i,j+3]
+        if prod4 > maxProd:
+            maxProd = prod4
+print(maxProd)

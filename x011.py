@@ -23,8 +23,8 @@ a = np.reshape(m,(20,20))
 
 def lefttoright():
     prodlist = []
-    for i in range(0,19):
-        for j in range(0,15):
+    for i in range(0,20):
+        for j in range(0,17):
             product = a[i,j]*a[i,j+1]*a[i,j+2]*a[i,j+3]
             prodlist.append(product)
     return max(prodlist)
@@ -32,13 +32,23 @@ def lefttoright():
 
 def uptodown():
     prodlist = []
-    for j in range(0,19):
-        for i in range(0,15):
+    for j in range(0,20):
+        for i in range(0,17):
             product = a[i,j]*a[i+1,j]*a[i+2,j]*a[i+3,j]
             prodlist.append(product)
     return max(prodlist)
 
 def diagonal():
-    pass
+    dialist = [np.diag(a)]
+    prodlist = []
+    for i in range(1,17):
+        dialist.append(np.diag(a,k=i))
+        dialist.append(np.diag(a,k=-i))
+    for item in dialist:
+        item = item.tolist()
+        for j in range(0,len(item)-3):
+            product = item[j]*item[j+1]*item[j+2]*item[j+3]
+            prodlist.append(product)
+    return max(prodlist)
 
-print(max(uptodown(),lefttoright()))
+print(max(lefttoright(),uptodown(),diagonal()))
