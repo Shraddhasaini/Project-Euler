@@ -22,10 +22,23 @@ m = array([[8, 2, 22, 97, 38, 15, 00, 40, 00, 75, 4, 5, 7, 78, 52, 12, 50, 77, 9
 a = reshape(m,(20,20))
 
 def lefttoright():
+    prodlist = []
     for i in range(0,19):
-        
+        for j in range(0,15):
+            product = a[i,j]*a[i,j+1]*a[i,j+2]*a[i,j+3]
+            prodlist.append(product)
+    return max(prodlist)
+
 
 def uptodown():
+    prodlist = []
+    for j in range(0,19):
+        for i in range(0,15):
+            product = a[i,j]*a[i+1,j]*a[i+2,j]*a[i+3,j]
+            prodlist.append(product)
+    return max(prodlist)
+
+def diagonal():
     pass
 
-print(a[19,19])
+print(max(uptodown(),lefttoright()))
