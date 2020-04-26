@@ -39,11 +39,14 @@ def uptodown():
     return max(prodlist)
 
 def diagonal():
-    dialist = [np.diag(a)]
+    x = np.fliplr(a)
+    dialist = [np.diag(a),np.diag(x)]
     prodlist = []
     for i in range(1,17):
         dialist.append(np.diag(a,k=i))
         dialist.append(np.diag(a,k=-i))
+        dialist.append(np.diag(x,k=i))
+        dialist.append(np.diag(x,k=-i))
     for item in dialist:
         item = item.tolist()
         for j in range(0,len(item)-3):
@@ -51,4 +54,5 @@ def diagonal():
             prodlist.append(product)
     return max(prodlist)
 
-print(max(lefttoright(),uptodown(),diagonal()))
+
+print(max(diagonal(),uptodown(),lefttoright()))
