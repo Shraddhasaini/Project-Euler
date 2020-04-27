@@ -1,9 +1,5 @@
 file = open("f013.text", "r")
 lst = []
-Lines = file.readlines()
-count = 0
-# Strips the newline character
-for line in Lines:
+for line in file.readlines():
     lst.append(int(line.strip()))
-x = str(sum(lst))
-print(x[:10])
+print(str(sum(lst))[:10])
