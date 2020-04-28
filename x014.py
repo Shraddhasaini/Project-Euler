@@ -11,5 +11,4 @@ def collatz(n):
 
 
 
-
 print(collatz(16))
