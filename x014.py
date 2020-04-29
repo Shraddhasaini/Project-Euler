@@ -11,8 +11,8 @@ def collatz(n):
 
 def number():
     y = []
-    for i in range(2,20):
+    for i in range(200,250):
         x = len(collatz(i))
         y.append(x)
-
+    return max(y)
 print(number())
