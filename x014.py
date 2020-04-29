@@ -9,6 +9,10 @@ def collatz(n):
     lst.append(1)
     return lst
 
+def number():
+    y = []
+    for i in range(2,20):
+        x = len(collatz(i))
+        y.append(x)
 
-
-print(collatz(16))
+print(number())
