@@ -10,9 +10,9 @@ def collatz(n):
     return lst
 
 def number():
-    y = []
-    for i in range(200,250):
+    dict = {}
+    for i in range(1,1000000):
         x = len(collatz(i))
-        y.append(x)
-    return max(y)
+        dict.update({i : x} )
+    return max(dict,key=dict.get)
 print(number())
