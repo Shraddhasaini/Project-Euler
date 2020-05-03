@@ -32,8 +32,11 @@ digit2word = {
 
 }
 
-def digi(x):
-    for i in range(1,x):
-        
 
-print(digi(10))
+def digi(x):
+    string = 'one'
+    for i in range(2,x+1):
+        string += digit2word[str(i)]
+    return len(string)
+
+print(digi(5))
