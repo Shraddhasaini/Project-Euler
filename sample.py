@@ -1,2 +1,2 @@
-x = "shraddha"
-print(x[0])
+x = "Shraddha Saini"
+print(x[2])

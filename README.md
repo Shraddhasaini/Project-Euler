@@ -1,4 +1,4 @@
-# Project Euler   	:triangular_ruler:
+# Project Euler  
 
 ## What is Project Euler?
 >**Project Euler** is a series of challenging problems that require mathematical and programming skills. Somebody who enjoys learning new area of mathematics, project Euler is going to be a fun journey.
@@ -41,4 +41,4 @@
 > ### Is there anywhere else we can discuss and meet other members?
 >> Indeed there is! There is an alternative phpBB official forum which has been set up to allow members to engage in general discussions, share ideas relating to problem solving and programming, make suggestions about the website, and ask for clarification on the wording of a particular problem.
 >
-###### Thankyou! :heart: :heart:
+>
