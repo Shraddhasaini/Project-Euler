@@ -1,2 +1,2 @@
 x = "Shraddha Saini"
-print(x[1])
+print(x[2])
